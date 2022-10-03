@@ -1,0 +1,27 @@
+.title {
+    color: #86C232;
+    margin: 30px 0;
+    text-align: center;
+}
+
+.highlight{
+    color: #86C232;
+    font-weight: bold;
+}
+
+.text-center{
+    padding: 0 5%;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    color: #61892F;
+    transition: .3s ease-in-out;
+}
+
+.lead{
+    font-size: 1.7em;
+}
