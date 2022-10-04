@@ -1,3 +1,10 @@
+/* 
+COMP229-F2022-A1
+Ouzin von Wahl
+301229915
+October 3, 2022
+*/
+
 .title {
     color: #86C232;
     margin: 30px 0;
@@ -24,4 +31,12 @@ a:hover{
 
 .lead{
     font-size: 1.7em;
+}
+
+.col{
+    margin: 28px 0;
+}
+
+#copyright{
+    color: #fff;
 }
