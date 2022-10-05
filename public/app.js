@@ -10,3 +10,7 @@
 
     window.addEventListener('load', Start)
 })();
+
+function redirectHome(){
+
+};
