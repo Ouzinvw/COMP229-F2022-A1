@@ -1,12 +1,12 @@
-// Third Party Modules
-import express from "express";
-import cookieParser from "cookie-parser";
-import logger from 'morgan';
 // COMP229-F2022-A1
 // Ouzin von Wahl
 // 301229915
 // October 3, 2022
 
+// Third Party Modules
+import express from "express";
+import cookieParser from "cookie-parser";
+import logger from 'morgan';
 import session from "express-session";
 
 // ES Modules fix for __dirname 
@@ -40,10 +40,5 @@ app.use(session({
 
 // Use Routes
 app.use('/', indexRouter);
-
-// // run app
-// app.listen(3000);
-
-// console.log('Server running at http://localhost:3000');
 
 export default app;
